@@ -1,35 +1,35 @@
-%aside.overlay.animate-hide-slide-in{ :'ng-show' => "Overlay.preOrder", :'esc-fn' => 'escOverlays', :'ng-cloak' => '' }
-  %a.fa.fa-times.cancel{ :'ng-click' => 'Overlay.closeOverlays()' }
+%aside.overlay.animate-hide-slide-in{ 'ng-show': "Overlay.preOrder", 'esc-fn': 'escOverlays', 'ng-cloak': '' }
+  %a.fa.fa-times.cancel{ 'ng-click': 'Overlay.closeOverlays()' }
   .overlay-bg
-    .overlay-flex.animate-hide-slide-in-delayed{ :'ng-show' => 'Overlay.preOrder' }
+    .overlay-flex.animate-hide-slide-in-delayed{ 'ng-show': 'Overlay.preOrder' }
       .flex-box
 
         %h2 Receive Updates
         #mc_embed_signup
-          %form#mc-embedded-subscribe-form.validate{ :action => '//headlessghost.us9.list-manage.com/subscribe/post?u=34295251abd853452967fd105&id=6fdbb312ee', :method => 'post', :name => 'mc-embedded-subscribe-form', :novalidate => '', :target => '_blank' }
+          %form#mc-embedded-subscribe-form.validate{ action: '//headlessghost.us9.list-manage.com/subscribe/post?u=34295251abd853452967fd105&id=6fdbb312ee', method: 'post', name: 'mc-embedded-subscribe-form', novalidate: '', target: '_blank' }
             .mc-field-group
-              %label{ :for => 'mce-EMAIL' }
+              %label{ for: 'mce-EMAIL' }
                 Email Address
                 %span.asterisk *
-              %input#mce-EMAIL.required.email{ :name => 'EMAIL', :type => 'email', :value => '', :'focus-me'=>'{{Overlay.preOrder}}' }
+              %input#mce-EMAIL.required.email{ name: 'EMAIL', type: 'email', value: '', :'focus-me'=>'{{Overlay.preOrder}}' }
             .mc-field-group
-              %label{ :for => 'mce-FNAME' } First Name
-              %input#mce-FNAME{ :name => 'FNAME', :type => 'text', :value => '' }
+              %label{ for: 'mce-FNAME' } First Name
+              %input#mce-FNAME{ name: 'FNAME', type: 'text', value: '' }
             .mc-field-group
-              %label{ :for => 'mce-LNAME' } Last Name
-              %input#mce-LNAME{ :name => 'LNAME', :type => 'text', :value => '' }
+              %label{ for: 'mce-LNAME' } Last Name
+              %input#mce-LNAME{ name: 'LNAME', type: 'text', value: '' }
 
             #mce-responses.clear
-              #mce-error-response.response{ :style => 'display:none' }
-              #mce-success-response.response{ :style => 'display:none' }
+              #mce-error-response.response{ style: 'display:none' }
+              #mce-success-response.response{ style: 'display:none' }
 
-            %div{ :style => 'position: absolute; left: -5000px;' }
-              %input{ :name => 'b_34295251abd853452967fd105_6fdbb312ee', :tabindex => '-1', :type => 'text', :value => '' }
+            %div{ style: 'position: absolute; left: -5000px;' }
+              %input{ name: 'b_34295251abd853452967fd105_6fdbb312ee', tabindex: '-1', type: 'text', value: '' }
 
-            %button.btn.primary#mc-embedded-subscribe{ :type => 'submit' }
+            %button.btn.primary#mc-embedded-subscribe{ type: 'submit' }
               Submit
               %span.fa.fa-arrow-right
 
-        %script{ :src => '//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js', :type => 'text/javascript' }
+        %script{ src: '//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js', type: 'text/javascript' }
         :javascript
           (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
