@@ -56,12 +56,6 @@ set :js_dir, 'assets/js'
 
 set :images_dir, 'assets/images'
 
-#autoprefixer for middleman
-activate :autoprefixer do |config|
- config.browsers = ['last 2 versions', 'Explorer >= 9']
- config.cascade  = false
- config.inline   = true
-end
 
 # Build-specific configuration
 configure :build do
@@ -70,6 +64,13 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
+
+  #autoprefixer for middleman
+  activate :autoprefixer do |config|
+   config.browsers = ['last 2 versions', 'Explorer >= 9']
+   config.cascade  = false
+   config.inline   = true
+  end
 
   # Enable cache buster
   # activate :asset_hash
