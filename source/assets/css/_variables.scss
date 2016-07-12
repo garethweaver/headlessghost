@@ -1,0 +1,35 @@
+//base
+$base: 1.6em;
+$mob-base: 1.1em;
+$line-height: 1.5em;
+
+//fonts
+$xl: 8.4rem;
+$lg: 3rem;
+$md: 2.3rem;
+$sm: 1.9rem;
+
+
+//grid
+$max-width: 1180px;
+$col-gutter: 20px;
+$break-small: 549px;
+$break-large: 980px;
+
+
+//colors
+$green: #0dbc64;
+$grey:  #8f8f8f;
+$dgrey: #323232;
+$lgrey: #cfcfcf;
+$red:   #ff8f66;
+//$dark: #2e2c2d;
+//$bg: #3f3f3f;
+
+
+//border-radius
+$br: 0.7rem;
+
+@mixin show-on($media){
+  @media only screen and (min-width:$media) { @content; }
+}

@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^headlessghost\.com$ [NC]
+RewriteRule ^(.*)$ https://www.headlessghost.com/$1 [R=301,L]
+
+RewriteBase /
+RewriteRule ^pledge/(.*) https://www.kickstarter.com/projects/devjoshi/headless-ghost [R=301,L]
