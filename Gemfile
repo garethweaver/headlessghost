@@ -15,3 +15,4 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Personal Gems
 gem 'middleman-autoprefixer'
+gem 'redcarpet'

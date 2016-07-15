@@ -48,7 +48,7 @@
 # end
 
 #haml
-set :haml, { :attr_wrapper => '"', :layout_engine => :erb, :format => :html5 }
+set :haml, { attr_wrapper: '"', layout_engine: :erb, format: :html5 }
 
 set :css_dir, 'assets/css'
 
@@ -56,6 +56,8 @@ set :js_dir, 'assets/js'
 
 set :images_dir, 'assets/images'
 
+set :markdown_engine, :redcarpet
+set :markdown, { fenced_code_blocks: true, smartypants: true }
 
 # Build-specific configuration
 configure :build do

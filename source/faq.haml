@@ -11,6 +11,8 @@
         %dl
           - data.faqs.each do |question|
             %dt= question.q
-            %dd= question.a
+            %dd
+              :markdown
+                #{question.a}
 
   = partial 'assets/partials/shops'
