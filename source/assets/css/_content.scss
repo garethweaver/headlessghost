@@ -1,0 +1,43 @@
+.content {
+  h1 { color:$green; margin-bottom:5rem; }
+  p {  -webkit-hyphens:auto; }
+  .bullets {
+    list-style:none; padding:0; margin-bottom:2em;
+    li { display:flex; margin:0 0 1em; }
+    .fa-circle { color:$green; flex:0 0 1.7em; font-size:0.7em; position:relative; top:0.9rem; }
+  }
+  .big-link {
+    font-size:$md;
+    .fa { margin-left:0.3em; }
+    &:hover { color:$green; }
+  }
+  #buy-one {
+    .shop-link {
+      text-align:center; padding:30px; display:block; transition:all 0.2s; background:lighten($lgrey,15%);
+      @media (min-width:$break-large) {
+        border-radius:8px;
+        &:hover {
+          box-shadow:0 0 0 1px $green;
+          .fa { color:$green; }
+        }
+      }
+      img { max-width:150px; margin:0 auto; }
+      .fa { font-size:$lg; color:$lgrey; transition:all 0.2s; }
+    }
+    .shop-info {
+      margin-top:2em;
+      a:hover { color:$green; }
+    }
+  }
+  @media (min-width:$break-large) {
+    .img-padd { padding:8rem 5rem 0 10rem; }
+  }
+  @media (max-width:$break-large - 1px) {
+    #what-is-it {
+      .img-padd { padding-top:5rem; }
+    }
+    #product-specification {
+      img.respond { margin-top:3em; }
+    }
+  }
+}

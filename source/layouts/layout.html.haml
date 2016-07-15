@@ -11,37 +11,14 @@
     %meta{ property: "og:url", content: "http://www.headlessghost.com" }
     %meta{ property: "og:image", content: "http://www.headlessghost.com/assets/images/ogg-ghost.jpg" }
     %meta{ property: "og:description", content: "A display emulator for digital video interfaces that fits discreetly into your HDMI port." }
-    = stylesheet_link_tag "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css", "//fonts.googleapis.com/css?family=Ubuntu:400,700", "screen"
+    = stylesheet_link_tag "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", "//fonts.googleapis.com/css?family=Ubuntu:400,700", "screen"
     = javascript_include_tag "//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js", "//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-animate.min.js"
     = javascript_include_tag "script"
-    - # temporarily disabled celery
-    - # = javascript_include_tag "//www.trycelery.com/js/celery.js", :async=>''
-    %link{ href: "/assets/favicons/apple-touch-icon-57x57.png", rel: "apple-touch-icon-precomposed", sizes: "57x57" }
-    %link{ href: "/assets/favicons/apple-touch-icon-114x114.png", rel: "apple-touch-icon-precomposed", sizes: "114x114" }
-    %link{ href: "/assets/favicons/apple-touch-icon-72x72.png", rel: "apple-touch-icon-precomposed", sizes: "72x72" }
-    %link{ href: "/assets/favicons/apple-touch-icon-144x144.png", rel: "apple-touch-icon-precomposed", sizes: "144x144" }
-    %link{ href: "/assets/favicons/apple-touch-icon-60x60.png", rel: "apple-touch-icon-precomposed", sizes: "60x60" }
-    %link{ href: "/assets/favicons/apple-touch-icon-120x120.png", rel: "apple-touch-icon-precomposed", sizes: "120x120" }
-    %link{ href: "/assets/favicons/apple-touch-icon-76x76.png", rel: "apple-touch-icon-precomposed", sizes: "76x76" }
-    %link{ href: "/assets/favicons/apple-touch-icon-152x152.png", rel: "apple-touch-icon-precomposed", sizes: "152x152" }
-    %link{ href: "/assets/favicons/favicon-196x196.png", rel: "icon", sizes: "196x196", type: "image/png" }
-    %link{ href: "/assets/favicons/favicon-96x96.png", rel: "icon", sizes: "96x96", type: "image/png" }
-    %link{ href: "/assets/favicons/favicon-32x32.png", rel: "icon", sizes: "32x32", type: "image/png" }
-    %link{ href: "/assets/favicons/favicon-16x16.png", rel: "icon", sizes: "16x16", type: "image/png" }
-    %link{ href: "/assets/favicons/favicon-128.png", rel: "icon", sizes: "128x128", type: "image/png" }
-    %meta{ content: "Headless Ghost", name: "application-name" }
-    %meta{ content: "#FFFFFF", name: "msapplication-TileColor" }
-    %meta{ content: "/assets/favicons/mstile-144x144.png", name: "msapplication-TileImage" }
-    %meta{ content: "/assets/favicons/mstile-70x70.png", name: "msapplication-square70x70logo" }
-    %meta{ content: "/assets/favicons/mstile-150x150.png", name: "msapplication-square150x150logo" }
-    %meta{ content: "/assets/favicons/mstile-310x150.png", name: "msapplication-wide310x150logo" }
-    %meta{ content: "/assets/favicons/mstile-310x310.png", name: "msapplication-square310x310logo" }
-    :javascript
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-54203114-1', 'auto');
-      ga('send', 'pageview');
+    = partial 'assets/partials/favicons'
+    = partial 'assets/partials/analytics'
+
   %body{ 'ng-controller': 'OverlayController', 'ng-class': '{ "overlay-open" : Overlay.overlayOpen }' }
+    = partial 'assets/partials/menu'
     = yield
+    = partial 'assets/partials/footer'
+    = partial 'assets/partials/mailchimp'

@@ -1,8 +1,8 @@
-.clearfix { display:table; line-height:0; content:""; clear:both; }
+.clearfix { display:table; line-height:0; content:''; clear:both; }
 .row {
     max-width:$max-width + $col-gutter; margin:0 auto;
     .row { margin-left:-$col-gutter; margin-right:-$col-gutter; }
-    .col { @include box-sizing(border-box); padding-left:$col-gutter; padding-right:$col-gutter; min-height:1px; }
+    .col { box-sizing:border-box; padding-left:$col-gutter; padding-right:$col-gutter; min-height:1px; }
     &:after { @extend .clearfix; }
 }
 

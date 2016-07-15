@@ -1,0 +1,17 @@
+%section#buy-one
+  .row
+    .col.lg-12
+      %hr
+  .row
+    .col.lg-6
+      %h1 I want one!
+  .row
+    - data.shops.each do |shop|
+      .col.lg-4
+        %a.shop-link{ href: shop.link, target: '_blank' }
+          %img{ src: shop.flag  }
+          %p from #{shop.name}
+          %span.fa.fa-chevron-right
+  .row
+    .col.lg-12
+      %p.shop-info Headless Ghost modules are back in stock and availabe to order now in the UK & Europe, the USA and Australia! Stay up to date with Headless Ghost News by <a ng-click="Overlay.openOverlay('preOrder')">signing up for updates</a> or following us on <a href="https://twitter.com/Headless_Ghost" target="_blank">Twitter</a>.

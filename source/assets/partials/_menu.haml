@@ -1,0 +1,12 @@
+%nav#page-nav{ 'scroll-class': '', 'ng-class': '{ "scrolled" : scrolled }' }
+  .row
+    .col.lg-12
+      %ul
+        %li
+          %a{ href: '/' } Home
+        %li
+          %a{ 'scroll-to': 'buy-one', duration: '1000' } Buy
+        %li
+          %a{ href: '/faq.html' } FAQ
+        %li
+          %a{ href: data.links.news, target: '_blank' } News
