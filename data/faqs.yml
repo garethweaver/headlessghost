@@ -54,7 +54,7 @@
     * Windows users can make changes in software using the [Custom Resolution Utility](http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
     * Linux users can re-write the EDID inside the module using [edid-rw](https://github.com/bulletmark/edid-rw)
     * Windows users can re-write the EDID inside the module using [PowerStrip](http://entechtaiwan.com/util/ps.shtm)
-    * Information on accessing and programming the EDID directly via the hardware can be found here [https://headlessghost.com/res/Docs/ProgrammingInformation_HeadlessGhost.zip]
+    * Information on accessing and programming the EDID directly via the hardware can be found here[https://headlessghost.com/res/Docs/ProgrammingInformation_HeadlessGhost.zip]
 
 
 - q: I still have questions!
