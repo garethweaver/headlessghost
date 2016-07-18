@@ -44,7 +44,7 @@
     * 800x600 60Hz/30Hz
     * 640x480 100Hz/75Hz/60Hz/30Hz
 
-    A full report of available modes can be found [here](https://headlessghost.com/res/Docs/NewerTech_headlessModule_EDIDReport_Public.pdf)
+    A full report of available modes can be found [here](/res/Docs/NewerTech_headlessModule_EDIDReport_Public.pdf)
 
 
 - q: I want to use a mode that isn't in the list - can I add my own display modes?
@@ -54,20 +54,9 @@
     * Windows users can make changes in software using the [Custom Resolution Utility](http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
     * Linux users can re-write the EDID inside the module using [edid-rw](https://github.com/bulletmark/edid-rw)
     * Windows users can re-write the EDID inside the module using [PowerStrip](http://entechtaiwan.com/util/ps.shtm)
-    * Information on accessing and programming the EDID directly via the hardware can be found here[https://headlessghost.com/res/Docs/ProgrammingInformation_HeadlessGhost.zip]
+    * Information on accessing and programming the EDID directly via the hardware can be [found here](/res/Docs/ProgrammingInformation_HeadlessGhost.zip)
 
 
 - q: I still have questions!
   a: |
     Email [boo@headlessghost.com](mailto:boo@headlessghost.com) and we'll get back to you as soon as we can.
-
-# - q: How do I markdown?
-#   a: |
-#     # heading
-#     ## heading 2
-
-#     Paragraph
-
-#     * list
-#     * items
-#     * here
