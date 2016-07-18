@@ -1,0 +1,62 @@
+- q: Does it work on Windows/OSX/Linux?
+  a: |
+    Yes! Headless Ghost/NewerTech Headless modules are operating system agnostic so they will work with all versions of Windows, OSX, Linux and even with embedded systems such as Raspberry Pi.
+
+
+- q: Is there a DisplayPort/miniDisplayPort/DVI/VGA version of the Headless Ghost?
+  a: |
+    DisplayPort and Mini DisplayPort versions of the Headless Ghost are coming... eventually. There are no plans for a VGA or DVI version.
+
+
+- q: Can I use my Headless module with an adapter?
+  a: |
+    Yes! The Headless Ghost/NewerTech headless module will work DVI adapters and are partially supported by DisplayPort adapters. [More information on this topic](https://www.kickstarter.com/projects/devjoshi/headless-ghost/posts/1035927).
+
+
+- q: Can I use a module with VR desktop?
+  a: |
+    Yes! Headless Ghost/NewerTech headless modules work great with VR desktop on Oculas Rift and HTC Vive.
+
+
+- q: My simulated display is too big/too small - how do I change the resolution it is operating at?
+  a: |
+    * [Windows 10](http://www.thewindowsclub.com/change-screen-resolution-windows-10-2)
+    * [Windows 8/7/Vista/XP](http://www.wikihow.com/Change-the-Screen-Resolution-on-a-PC)
+    * [Linux](http://www.perpetualpc.net/srtd_resolution.html) (command line)
+    * [OSX](http://osxdaily.com/2015/08/27/show-all-display-resolutions-external-screen-mac/)
+    * [OSX utility Display Menu](https://itunes.apple.com/gb/app/display-menu/id549083868?mt=12) makes changing resolutions easy
+
+
+- q: What resolutions/refresh rates are encoded in the Headless Ghost/NewerTech Headless - does it do 4K/2K/1080p etc?
+  a: |
+    By default the module includes support for:
+
+    * 4096x2160 30Hz/29Hz/24Hz
+    * 3840x2160 30Hz/29Hz/24Hz
+    * 2560x1600 75Hz/30Hz/24Hz
+    * 2560x1440 75Hz/60Hz
+    * 2560x1080 30Hz
+    * 2048x1536 30Hz/29Hz
+    * 1920x1440 75Hz/60Hz
+    * 1920x1200 90Hz/75Hz/60Hz
+    * 1920x1080 120hz/100Hz/90Hz/75Hz/60Hz/30Hz
+    * 1440x900 120hz/100Hz/90Hz/75Hz/60Hz/30Hz
+    * 800x600 60Hz/30Hz
+    * 640x480 100Hz/75Hz/60Hz/30Hz
+
+    A full report of available modes can be found [here](/res/Docs/NewerTech_headlessModule_EDIDReport_Public.pdf)
+
+
+- q: I want to use a mode that isn't in the list - can I add my own display modes?
+  a: |
+    Yes! It is possible to set up custom display modes. These links are provided for information only and are not supported by Headless Ghost. Making use of these techniques is done at your own risk.
+
+    * Windows users can make changes in software using the [Custom Resolution Utility](http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
+    * Linux users can re-write the EDID inside the module using [edid-rw](https://github.com/bulletmark/edid-rw)
+    * Windows users can re-write the EDID inside the module using [PowerStrip](http://entechtaiwan.com/util/ps.shtm)
+    * Information on accessing and programming the EDID directly via the hardware can be [found here](/res/Docs/ProgrammingInformation_HeadlessGhost.zip)
+
+
+- q: I still have questions!
+  a: |
+    Email [boo@headlessghost.com](mailto:boo@headlessghost.com) and we'll get back to you as soon as we can.

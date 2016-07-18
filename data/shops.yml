@@ -1,0 +1,19 @@
+- link: '//eshop.macsales.com/item/NewerTech/ADP4KHEAD/'
+  flag: '/assets/images/flag-of-the-united-states.svg'
+  name: OWC
+
+- link: '//macupgrade.eu/catalog/hdmi-headless-mac-video-accelerator-p-1357.html?language=en#.V4OYWLgrIuV'
+  flag: '/assets/images/flag-of-europe.svg'
+  name: Mac Upgrade
+  
+- link: '//www.megamac.com/products/newertech-hdmi-headless-video-accelerator-nwtadp4khead'
+  flag: '/assets/images/flag-of-the-united-kingdom.svg'
+  name: MEGA MAC
+  
+- link: '//macpatric.com/products/newertech-headless-mac-video-accelerator'
+  flag: '/assets/images/flag-of-sweden.svg'
+  name: Mac Patric
+
+- link: '//www.macfixit.com.au/newertech-hdmi-headless-video-accelerator/'
+  flag: '/assets/images/flag-of-australia.svg'
+  name: Macfixit

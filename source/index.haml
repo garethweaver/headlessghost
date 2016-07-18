@@ -1,0 +1,93 @@
+.intro
+  %header#page-header
+    .row.bg-img
+      %a{ href: data.links.kickstarter, target: '_blank' }
+        %img.flash-kickstarter{ src: '/assets/images/flash-kickstarter.png', alt: 'As seen on kickstarter - 325% funded!' }
+      .col.lg-12
+        .row
+          .col.lg-5
+            %h1 Headless Ghost
+            %h2 A display emulator for digital video interfaces that fits discreetly into your computer.
+        %a.btn.primary.shop-now{ 'scroll-to': 'buy-one', duration: '1000' }
+          %img.flash-ghost{ src: '/assets/images/flash-ghost.png' }
+          Buy Now
+        %a.btn.clear{  'ng-click': "Overlay.openOverlay('preOrder')" }
+          %span.fa.fa-newspaper-o
+          Mailing List
+
+  %section#features
+    .row
+      .col.lg-6
+        .item
+          %span.fa.fa-desktop
+          Emulates a high resolution display up to 4096x2160 (4K)
+        .item
+          %span.fa.fa-thumbs-up
+          Works with Windows, OSX, Linux and just about everything else
+        .item
+          %span.fa.fa-compress
+          Ultra-compact, low profile design
+        .item
+          %span.fa.fa-ban
+          No drivers, no configuration, no power cable - just set and forget
+      .col.lg-6
+        .item
+          %span.fa.fa-tachometer
+          Allows for high resolution, GPU accelerated remote desktop
+        .item
+          %span.fa.fa-bitcoin
+          Acts as a dummy plug for use with GPGPU tasks such as crypto currency mining
+        .item
+          %span.fa.fa-gamepad
+          Works great with Virtual Desktop on Oculus Rift & HTC Vive
+        .item
+          %span.fa.fa-plane
+          Sold and shipped worldwide by our partners
+
+  .row
+    .col.lg-12
+      %img.respond.hide-lg{ src: '/assets/images/img-ghost-mob.jpg', alt: 'headless ghost chip' }
+
+.content
+  = partial 'assets/partials/shops'
+
+  %section#what-is-it
+    .row
+      .col.lg-12
+        %hr
+    .row
+      .col.lg-6
+        %h1 What is this thing?
+        %p Headless Ghost is a display emulator (dummy plug) that fits discreetly in to the video output socket on your computer.
+        %p Once the Headless Ghost is attached, your operating system detects a connected display and enables the GPU. The GPU hardware is often disabled until a display is attached resulting in poor performance and a limited working resolution for remote users.
+        %p With the GPU enabled, it is possible to perform for various tasks including high resolution hardware accelerated remote desktop and GPGPU operations like crypto currency mining.
+      .col.lg-6.img-padd
+        %img.respond{ src: '/assets/images/img-drawing-2.gif', alt: 'headless ghost chip', srcset: '/assets/images/img-drawing-2-retina.gif 2x' }
+
+  %section#product-specification
+    .row
+      .col.lg-12
+        %hr
+    .row
+      .col.lg-6
+        %h1 Product spec<span class="hide-mob">ifications</span>
+        %ul.bullets
+          %li
+            %span.fa.fa-circle
+            Supports resolutions from 800x600 up to 4096x2160
+          %li
+            %span.fa.fa-circle
+            Plug and play on Windows, OSX and Linux
+          %li
+            %span.fa.fa-circle
+            No drivers, no external power supply, no set up
+          %li
+            %span.fa.fa-circle
+            New version assembled with a minimal protective case
+
+        %a.big-link{ href: '/faq.html' }
+          Read FAQ
+          %span.fa.fa-chevron-right
+
+      .col.lg-6.img-padd
+        %img.respond{ src: '/assets/images/img-drawing-1.gif', alt: 'headless ghost chip', srcset: '/assets/images/img-drawing-1-retina.gif 2x' }
