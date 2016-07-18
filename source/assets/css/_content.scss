@@ -15,13 +15,13 @@
     .shop-link {
       text-align:center; padding:30px; display:block; transition:all 0.2s; background:lighten($lgrey,15%);
       @media (min-width:$break-large) {
-        border-radius:8px;
+        border-radius:8px; margin-bottom:1em;
         &:hover {
           box-shadow:0 0 0 1px $green;
           .fa { color:$green; }
         }
       }
-      img { max-width:150px; margin:0 auto; }
+      img { max-width:120px; margin:0 auto; }
       .fa { font-size:$lg; color:$lgrey; transition:all 0.2s; }
     }
     .shop-info {
