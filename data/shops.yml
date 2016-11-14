@@ -22,6 +22,6 @@
   flag: '/assets/images/flag-of-philippines.svg'
   name: Ynzal
 
-- link: '//canadaram.com/cart/product_info.php?manufacturers_id=167107&products_id=2423303/'
-  flag: '/assets/images/flag-of-canada.svg'
-  name: CanadaRAM
+# link: '//canadaram.com/cart/product_info.php?manufacturers_id=167107&products_id=2423303/'
+#  flag: '/assets/images/flag-of-canada.svg'
+#  name: CanadaRAM
