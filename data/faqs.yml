@@ -2,7 +2,6 @@
   a: |
     Yes! Headless Ghost/NewerTech Headless modules are operating system agnostic so they will work with all versions of Windows, OSX, Linux and even with embedded systems such as Raspberry Pi.
 
-
 - q: Is there a DisplayPort/miniDisplayPort/DVI/VGA version of the Headless Ghost?
   a: |
     DisplayPort and Mini DisplayPort versions of the Headless Ghost are coming... eventually. There are no plans for a VGA or DVI version.

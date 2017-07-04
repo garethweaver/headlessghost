@@ -5,11 +5,11 @@
 - link: '//macupgrade.eu/catalog/hdmi-headless-mac-video-accelerator-p-1357.html?language=en#.V4OYWLgrIuV'
   flag: '/assets/images/flag-of-europe.svg'
   name: Mac Upgrade
-  
+
 - link: '//www.megamac.com/products/newertech-hdmi-headless-video-accelerator-nwtadp4khead'
   flag: '/assets/images/flag-of-the-united-kingdom.svg'
   name: MEGAMAC
-  
+
 - link: '//macpatric.com/products/newertech-headless-mac-video-accelerator'
   flag: '/assets/images/flag-of-sweden.svg'
   name: Mac Patric
@@ -22,6 +22,6 @@
   flag: '/assets/images/flag-of-philippines.svg'
   name: Ynzal
 
-- link: '//canadaram.com/cart/product_info.php?manufacturers_id=167107&products_id=2423303/'
-  flag: '/assets/images/flag-of-canada.svg'
-  name: CanadaRAM
+# - link: '//canadaram.com/cart/product_info.php?manufacturers_id=167107&products_id=2423303/'
+#   flag: '/assets/images/flag-of-canada.svg'
+#   name: CanadaRAM
