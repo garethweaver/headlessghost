@@ -1,0 +1,29 @@
+<div class="content">
+  <section>
+    <div class="row">
+      <div class="col lg-12">
+        <hr/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col lg-8">
+        <h1>Frequently Asked Questions</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col lg-12">
+        <dl>
+          <% data.faqs.each do |question| %>
+            <dt>
+              <%= question.q %>
+            </dt>
+            <dd>
+              <%= markdown question.a %>
+            </dd>
+          <% end %>
+        </dl>
+      </div>
+    </div>
+  </section>
+  <%= partial 'partials/shops' %>
+</div>
