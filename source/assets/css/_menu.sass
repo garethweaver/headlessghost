@@ -1,0 +1,34 @@
+#page-nav
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  z-index: 10
+  transition: background 0.2s
+  text-align: center
+
+  @media (min-width: $break-large)
+    text-align: left
+
+  &.scrolled
+    background: rgba($green, 0.9)
+
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+
+  li
+    display: inline-block
+
+  a
+    display: block
+    padding: 20px 10px
+    font-weight: bold
+    text-transform: uppercase
+
+    &:hover
+      opacity: 0.7
+
+  li:first-child a
+    padding-left: 0

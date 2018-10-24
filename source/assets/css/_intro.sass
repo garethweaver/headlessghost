@@ -1,0 +1,108 @@
+.intro
+  color: white
+  background: $green
+
+  h1
+    margin-top: 2em
+
+  nav ul
+    list-style: none
+    padding: 0
+
+  .bg-img
+    position: relative
+
+    .flash-kickstarter
+      position: absolute
+      top: 2em
+      right: 2em
+
+  #features
+    padding: 0 0 2em
+
+    .item
+      display: flex
+      margin-bottom: 2em
+
+      .fa
+        flex: 0 0 1.8em
+        font-size: 2.3em
+
+  .btn
+    float: left
+    margin: 0 1em 1em 0
+
+    &.shop-now
+      position: relative
+      padding-left: 5.5em
+
+      .flash-ghost
+        position: absolute
+        top: -12px
+        left: 12px
+
+    @media (max-width: $break-large - 1px)
+      &.shop-now .flash-ghost
+        width: 65px
+        top: -8px
+
+      &.clear
+        width: 150px
+        text-align: center
+
+    @media (max-width: $break-small)
+      margin-right: 0
+      box-sizing: border-box
+      width: 100%
+
+      img
+        margin: 0 auto
+
+      &.anchor
+        width: 100%
+
+      &.shop-now
+        padding-left: 3.5rem
+
+        .flash-ghost
+          width: 17px
+          position: static
+          display: inline-block
+          margin-right: 5px
+
+      &.clear
+        width: 100%
+        text-align: center
+
+  @media (max-width: $break-large - 1px)
+    h1
+      margin-top: 8rem
+
+    #features
+      padding: 6rem 0 0
+
+@media (min-width: $break-large)
+  .bg-img
+    background: url(../images/img-ghost.jpg) no-repeat top right
+    min-height: 700px
+
+@media (min-width: $break-large - 1px) and (max-width: 1130px)
+  .bg-img
+    background-position: 400px 0
+
+@media (max-width: $break-large)
+  html
+    font-size: 50%
+
+  .bg-img .flash-kickstarter
+    display: none
+
+  .intro
+    padding-top: 1px
+
+@media (max-width: $break-small)
+  h1
+    font-size: 6rem
+
+  .bg-img
+    text-align: center
