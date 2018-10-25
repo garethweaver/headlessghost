@@ -18,7 +18,8 @@
     = javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-animate.min.js"
     = javascript_include_tag "script"
     = partial 'partials/favicons'
-    = partial 'partials/analytics'
+    - if build?
+      = partial 'partials/analytics'
 
   %body{ 'ng-controller': 'OverlayController', 'ng-class': '{ "overlay-open" : Overlay.overlayOpen }' }
     = partial 'partials/menu'
