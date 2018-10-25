@@ -1,22 +1,22 @@
 !!!5
-%html{ lang: "en", 'ng-app': 'app' }
+%html{ lang: 'en', 'ng-app': 'app' }
   %head
-    %meta{ charset: "utf-8" }
+    %meta{ charset: 'utf-8' }
     %title Headless Ghost - A simple HDMI plug display emulator
-    %meta{ name: "robots", content: "index, follow" }
-    %meta{ name: "description", content: "A display emulator for digital video interfaces that fits discreetly into your HDMI port." }
-    %meta{ name: "viewport", content: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" }
-    %meta{ property: "og:type", content: "website" }
-    %meta{ property: "og:title", content: "Headless Ghost - A simple HDMI plug display emulator" }
-    %meta{ property: "og:url", content: "http://www.headlessghost.com" }
-    %meta{ property: "og:image", content: "http://www.headlessghost.com/assets/images/ogg-ghost.jpg" }
-    %meta{ property: "og:description", content: "A display emulator for digital video interfaces that fits discreetly into your HDMI port." }
-    = stylesheet_link_tag "screen"
-    = stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-    = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Ubuntu:400,700"
-    = javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"
-    = javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-animate.min.js"
-    = javascript_include_tag "script"
+    %meta{ name: 'robots', content: 'index, follow' }
+    %meta{ name: 'description', content: 'A display emulator for digital video interfaces that fits discreetly into your HDMI port.' }
+    %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' }
+    %meta{ property: 'og:type', content: 'website' }
+    %meta{ property: 'og:title', content: 'Headless Ghost - A simple HDMI plug display emulator' }
+    %meta{ property: 'og:url', content: 'http://www.headlessghost.com' }
+    %meta{ property: 'og:image', content: 'http://www.headlessghost.com/assets/images/ogg-ghost.jpg' }
+    %meta{ property: 'og:description', content: 'A display emulator for digital video interfaces that fits discreetly into your HDMI port.' }
+    = stylesheet_link_tag 'screen'
+    = stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'
+    = stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Ubuntu:400,700'
+    = javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js'
+    = javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-animate.min.js'
+    = javascript_include_tag 'script'
     = partial 'partials/favicons'
     - if build?
       = partial 'partials/analytics'
