@@ -4,7 +4,7 @@
 
 - q: Is there a DisplayPort/miniDisplayPort/DVI/VGA version of the Headless Ghost?
   a: |
-    DisplayPort and Mini DisplayPort versions of the Headless Ghost are coming... eventually. There are no plans for a VGA or DVI version.
+    A native Mini DisplayPort version of the Headless Ghost is current in development [which you can read about here](https://mailchi.mp/6626f8411e36/good-news-everyone-new-stuff-is-coming-204957). There are no plans for a VGA or DVI version.
 
 
 - q: Can I use my Headless module with an adapter?
