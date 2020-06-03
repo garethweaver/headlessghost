@@ -2,9 +2,9 @@
   flag: '/assets/images/flag-of-the-united-states.svg'
   name: OWC
 
-- link: '//macupgrade.eu/catalog/hdmi-headless-mac-video-accelerator-p-1357.html?language=en#.V4OYWLgrIuV'
+- link: '//www.owcshop.eu/catalog/product_info.php/hdmi-headless-video-accelerator-p-1342'
   flag: '/assets/images/flag-of-europe.svg'
-  name: Mac Upgrade
+  name: OWV EU
 
 - link: '//www.megamac.com/products/newertech-hdmi-headless-video-accelerator-nwtadp4khead'
   flag: '/assets/images/flag-of-the-united-kingdom.svg'
@@ -22,6 +22,6 @@
   flag: '/assets/images/flag-of-philippines.svg'
   name: Ynzal
 
-# - link: '//canadaram.com/cart/product_info.php?manufacturers_id=167107&products_id=2423303/'
-#   flag: '/assets/images/flag-of-canada.svg'
-#   name: CanadaRAM
+- link: '//www.logicsolutions.gr/el/accessories/adaptors/adaptors-video/newertech-headless-hdmi-video-accelerator/'
+  flag: '/assets/images/flag-of-greece.svg'
+  name: Logic E Solutions
